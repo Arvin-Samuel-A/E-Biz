@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+
+        table {
+            border: 3px solid red;
+        }
+
+        th {
+            font-size: 30px;
+        }
+
+        th, td {
+            padding: 8px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <form method="get">
+            <table>
+                <tr>
+                    <th colspan="2"><u>Sign In</u><br><br></th>
+                </tr>
+
+                <tr>
+                    <td><label for="Firstname">First Name </label></td>
+                    <td><input type="text" id="Firstname" size="30" value="First Name"</td>
+                </tr>
+
+                <tr>
+                    <td><label for="Lastname">Last Name </label></td>
+                    <td><input type="text" id="Lastname" size="30" value="Last Name"</td>
+                </tr>
+
+                <tr>
+                    <td><label for="Address">Address Line </label></td>
+                    <td><textarea id="Address" name="Address" rows="4" cols="29"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="City">City </label></td>
+                    <td><input type="text" id="City" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="State">State </label></td>
+                    <td>
+                        <select name="State">
+                            <option value="State"> Gujarat </option>
+                            <option value="State" selected> Tamil Nadu </option>
+                            <option value="State"> Kerela</option>
+                            <option value="State"> Delhi </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Zip">Zip </label></td>
+                    <td><input type="text" id="Zip" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="File">Upload AADHAR</label></td>
+                    <td><input type="file" id="File" value="Browse"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Email">E-Mail </label></td>
+                    <td><input type="email" id="E-Mail" size="30"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Mobile">Mobile </label></td>
+                    <td><input type="text" id="City" size="30" value="+91"></td>
+                </tr>
+
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <th colspan="2"><input type="submit" value="Login"><input type="reset" value="Clear"></th>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
